@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URL Shortener Microservice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>URL Shortener</h1>
+    <main>
+      <section class="form-container">
+        <form action="api/shorturl" method="POST">
+          <div class="input-group">
+            <label for="url_input">Enter your URL:</label>
+            <input id="url_input" type="text" name="url" placeholder="https://www.example.com" required>
+          </div>
+          <button type="submit">Shorten URL</button>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
