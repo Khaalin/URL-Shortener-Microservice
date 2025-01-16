@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const dns = require('dns');
 const { URL } = require('url');
 const Url = require('./model/url');
+const cors = require('cors');
 
 const app = express();
 
